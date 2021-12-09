@@ -7,7 +7,7 @@
 
     <title>Web page</title>
     <style>
-      img {
+      img.myImageStyle {
         width: 100px;
         height: 100px;
         border-radius: 50px;
@@ -26,7 +26,7 @@
     </style>
   </head>
   <body>
-    <img src="images/programming.png" alt="programming" />
+    <img class="myImageStyle" src="images/programming.png" alt="programming" />
     <p class="username">@tomas</p>
     <p>Web development</p>
     <p>Emphasizing <em>using em</em> element.</p>
@@ -47,9 +47,14 @@
       fuga!
     </p>
 
-    <a href="company/about.html">About</a>
-    <a href="company/about.html"
-      ><img src="images/programming.png" alt="programming"
-    /></a>
+    <p><a href="company/about.html">About</a></p>
+
+    <p>
+      <a href="company/about.html"
+        ><img src="images/programming.png" alt="programming"
+      /></a>
+    </p>
+    <p><a href="images/programming.png">My photo</a></p>
+    <p><a href="images/programming.png" download>Download my photo</a></p>
   </body>
 </html>
