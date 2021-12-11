@@ -9,3 +9,27 @@ h1 {
 #products {
   color: pink;
 }
+
+#grad {
+  background-image: linear-gradient(red, yellow);
+  background-image: linear-gradient(to right, red, yellow);
+  background-image: linear-gradient(to bottom right, red, yellow);
+
+  background-image: radial-gradient(red, yellow, green);
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+
+#border {
+  border: 10px solid royalblue;
+  border-top: 20px solid royalblue;
+  border-width: 10px 20px 10px 20px;
+  border-style: dashed;
+  border-color: black;
+  border-radius: 20px;
+}
+
+#shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 5px red;
+}
