@@ -1,0 +1,12 @@
+.container {
+  border: 3px solid blue;
+  display: flex;
+  flex-wrap: ;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  margin: 1rem;
+}
