@@ -11,3 +11,51 @@
   width: 10em;
   width: 10rem;
 }
+
+body {
+  margin: 10px;
+  height: 200vh;
+}
+
+.pboxes {
+  border: 3px solid blue;
+  position: relative;
+}
+
+.pbox {
+  width: 5rem;
+  height: 5rem;
+}
+
+.pbox-one {
+  background-color: red;
+}
+
+.pbox-two1 {
+  background-color: green;
+  position: relative;
+  left: -4rem;
+  left: 4rem;
+  bottom: 4rem;
+  z-index: -1;
+}
+
+.pbox-two {
+  background-color: green;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.pbox-two2 {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.pbox-three {
+  background-color: orange;
+}
