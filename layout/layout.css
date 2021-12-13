@@ -1,4 +1,13 @@
 .box {
-  box-sizing: border-box;
-  overflow: auto;
+  width: 100px;
+  width: 50%;
+  width: 50vw;
+  height: 100px;
+  height: 50vh;
+  background-color: gold;
+  border-top: 3px orange solid;
+
+  font-size: 20px;
+  width: 10em;
+  width: 10rem;
 }
