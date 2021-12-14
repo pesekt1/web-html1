@@ -2,6 +2,8 @@ body {
   margin: 10px;
   font-size: 1rem;
   line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 4px;
 }
 
 h1,
@@ -15,11 +17,35 @@ h6 {
 
 h1 {
   font-size: 3.052rem;
+  letter-spacing: -2px;
 }
 
 h2 {
   font-size: 2.441rem;
   margin: 3rem 0 1rem 0;
+}
+
+p {
+  width: 50ch;
+  text-align: left;
+}
+
+p + p {
+  text-indent: 1rem;
+}
+
+.trunctuated {
+  width: 50ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.twocolumns {
+  width: 100vw;
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 3px dotted #555;
 }
 
 @media screen and (min-width: 400px) {
