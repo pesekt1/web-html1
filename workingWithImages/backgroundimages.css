@@ -1,0 +1,8 @@
+body {
+  background-image: url("images/bg-paper@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10px 10px;
+  height: 200vh;
+  background-attachment: fixed;
+}
