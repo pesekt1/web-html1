@@ -1,3 +1,7 @@
 .resolution {
   width: 400px;
 }
+
+.resolutionSwitch {
+  width: 100vw;
+}

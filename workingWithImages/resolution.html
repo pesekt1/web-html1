@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resolution</title>
+    <link rel="stylesheet" href="resolution.css" />
   </head>
   <body>
     <p><a href="images.html">Images</a></p>
@@ -12,7 +13,33 @@
       src="images/meal.jpg"
       alt=""
       class="highResolution"
-      scrset="images/meal.jpg 1x, images/meal@2x.jpg 2x, images/meal@3x.jpg 3x"
+      srcset="images/meal.jpg 1x, images/meal@2x.jpg 2x, images/meal@3x.jpg 3x"
+    />
+
+    <img
+      src="images/meal.jpg"
+      alt=""
+      class="resolutionSwitch"
+      srcset="
+        images/meal.jpg     400w,
+        images/meal@2x.jpg  800w,
+        images/meal@3x.jpg 1200w
+      "
+    />
+
+    <img
+      src="images/meal.jpg"
+      alt=""
+      srcset="
+        images/meal.jpg     400w,
+        images/meal@2x.jpg  800w,
+        images/meal@3x.jpg 1200w
+      "
+      sizes="
+        (max-width: 500px) 100vw, 
+        (max-width: 700px) 50vw, 
+        33vw
+      "
     />
   </body>
 </html>
