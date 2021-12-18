@@ -9,8 +9,18 @@
   </head>
   <body>
     <p><a href="images.html">Images</a></p>
+    <!-- clipping -->
     <img src="images/meal.jpg" alt="" class="clipped" />
+
+    <!-- filtering -->
     <img src="images/meal.jpg" alt="" class="filtered1" />
     <img src="images/meal.jpg" alt="" class="filtered2" />
+
+    <!-- modern image formats -->
+    <picture>
+      <source type="image/webp" srcset="images/meal.webp" />
+      <source type="image/jpg" srcset="images/meal.jpg" />
+      <img src="images/meal.jpg" alt="" />
+    </picture>
   </body>
 </html>
