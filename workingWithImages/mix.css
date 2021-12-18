@@ -1,3 +1,11 @@
 .clipped {
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
+
+.filtered1 {
+  filter: grayscale(70%) blur(2px);
+}
+
+.filtered2:hover {
+  filter: grayscale(70%) blur(2px);
+}
