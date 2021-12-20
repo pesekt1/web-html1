@@ -37,5 +37,33 @@
         <label for="gold" class="label-inline">Gold</label>
       </div>
     </form>
+
+    <form>
+      <input type="range" min="0" max="100" value="80" />
+    </form>
+
+    <!-- file inputs -->
+    <form>
+      <input type="file" />
+      <input type="file" multiple />
+      <input type="file" accept=".jpg" />
+      <input type="file" accept=".jpg, .png" />
+      <input type="file" accept="image/*" />
+      <input type="file" accept="video/*" />
+      <input type="file" accept="audio/*" />
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>Billing Address</legend>
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+      <fieldset>
+        <legend>Shipping Address</legend>
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+    </form>
   </body>
 </html>
