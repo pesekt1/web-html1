@@ -26,6 +26,8 @@
       </div>
     </form>
 
+    <hr />
+
     <!-- radio buttons -->
     <form>
       <div>
@@ -38,9 +40,14 @@
       </div>
     </form>
 
+    <hr />
+
+    <!-- range -->
     <form>
       <input type="range" min="0" max="100" value="80" />
     </form>
+
+    <hr />
 
     <!-- file inputs -->
     <form>
@@ -53,6 +60,9 @@
       <input type="file" accept="audio/*" />
     </form>
 
+    <hr />
+
+    <!-- Grouping related fields -->
     <form>
       <fieldset>
         <legend>Billing Address</legend>
@@ -65,5 +75,42 @@
         <input type="text" />
       </fieldset>
     </form>
+
+    <form>
+      <section>
+        <h2>Billing Address</h2>
+        <input type="text" />
+        <input type="text" />
+      </section>
+      <section>
+        <h2>Shipping Address</h2>
+        <input type="text" />
+        <input type="text" />
+      </section>
+    </form>
+
+    <hr />
+
+    <!-- hidden input -->
+    <form>
+      <input type="hidden" name="course-id" value="10" />
+    </form>
+
+    <hr />
+
+    <!-- input validation -->
+    <form>
+      <input type="email" required minlength="3" maxlength="15" />
+      <button type="submit">Sumbit</button>
+    </form>
+
+    <form>
+      <input type="text" required />
+      <button type="submit">Sumbit</button>
+    </form>
+
+    <hr />
+
+    <!-- submitting the form -->
   </body>
 </html>
