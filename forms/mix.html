@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mix</title>
+    <script
+      src="https://kit.fontawesome.com/f597274ed2.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
@@ -104,13 +108,16 @@
       <button type="submit">Sumbit</button>
     </form>
 
-    <form>
-      <input type="numbers" required min="0" max="100" />
-      <button type="submit">Sumbit</button>
-    </form>
-
     <hr />
 
     <!-- submitting the form -->
+    <form action="https://formspree.io/f/mbjwjewn" method="POST">
+      <input type="text" placeholder="Name" required name="name" />
+      <input type="email" placeholder="Email" required name="email" />
+      <button type="submit">
+        <em class="fas fa-exclamation-triangle"></em>
+        Submit
+      </button>
+    </form>
   </body>
 </html>
