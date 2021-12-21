@@ -1,7 +1,10 @@
 # Web development basics
 
-## Branches
-- start
-- html-basics
-- css-basics
-- html-css-2
+## html & css 2
+
+- Layout
+- Typography
+- Images
+- Forms
+- Transformations, Transitions, Animations
+- Writing clean CSS
