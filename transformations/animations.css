@@ -38,3 +38,7 @@
   animation-name: pop;
   animation-duration: 4s;
 }
+
+.animate-hover {
+  animation-name: animate__bounce;
+}
