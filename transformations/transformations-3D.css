@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.box1:hover {
+  transform: perspective(200px) translateZ(-50px);
+}
+
+.box2:hover {
+  transform: perspective(200px) rotateY(45deg);
+}
+
+.box3:hover {
+  transform: perspective(200px) rotateY(45deg);
+  transform-origin: 0 50%;
+}
+
+.sum {
+  display: flex;
+}
+
+.sum:hover {
+  transform: perspective(200px) rotate(45deg);
+  transform-origin: 0 50%;
+}
+
+.sum2 {
+  perspective: 200px;
+}
+
+.sum2:hover .box4 {
+  transform: rotateX(45deg);
+}
+
+.sum2:hover .box5 {
+  transform: rotateY(45deg);
+}
