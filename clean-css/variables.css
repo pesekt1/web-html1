@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #8b7617;
+}
+
+.one {
+  background: var(--color-primary);
+}
+
+.two {
+  background: var(--color-primary);
+}
